@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+<form id="registro">
+
+    <label for="nombre">Nombre</label>
+    <input  id="nombre" type="text">
+    <p id="vistaNombre"></p>
+    <p id="vistaCaracteres"></p>
+
+
+    <label for="edad">Edad</label>
+    <input  id="edad" type="number">
+    <p id="estadoEdad"></p>
+
+
+    <label for="modalidad">Modalida</label>
+    <select id="modalidad"> 
+        <option value="">Selecciona una modalidad</option>
+        <option value="virtual">Virtual</option>
+        <option value="presencial">Presencial</option>
+    </select>
+    <p id="infoModalidad"></p>
+
+
+
+
+    <label for="experiencia">Experiencia</label>
+    <select id="experiencia"> 
+        <option value="">Selecciona 1</option>
+        <option value="principiante">Principiante</option>
+        <option value="intermedio">Intermedio</option>
+        <option value="avanzado">Avanzado</option>
+    </select>
+    <p id="infoExperiencia"></p>
+
+
+    <label for="correo">Correo</label>
+    <input  id="correo" type="email">
+    <p id="infCorreo"></p>
+
+
+    <button type="submit">confirmar</button>
+</form>
+<p id="resultado"></p>
+
+
+<script src="js/app.js"></script>
+</body>
+</html>
